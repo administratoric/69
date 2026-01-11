@@ -6,8 +6,8 @@
 //二.负数不可能是2的幂
 //三.能被2取余的数字不一定是2的幂（比如6、10、12等）
 int main(){
-    int n=-16;
-    //scanf("%d", &n);
+    int n;
+    scanf("%d", &n);
     if (n == 0)
         printf("false");
     else if(n<0)
